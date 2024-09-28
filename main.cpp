@@ -194,7 +194,7 @@ class Octree {
 };
 
 int main(){
-    cout<<"PEP"<<endl;
+    cout<<"PEPE"<<endl;
     Octree *octree = new Octree(Point(0,0,0), 1000);
      
     string filename = "points1.csv";

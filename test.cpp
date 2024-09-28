@@ -110,6 +110,12 @@ class Octree {
 
 };
 
+void printPoints(const vector<Point> &points){
+    for(const auto &p : points){
+        cout << "(" << p.x << ", " << p.y << ", " << p.z << ")\n";
+    }
+}
+
 int main(){
 
     Octree *octree = new Octree(Point(0,0,0), 1000);
